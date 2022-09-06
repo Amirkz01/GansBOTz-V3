@@ -10,8 +10,8 @@ global.owner = [
 ] 
 global.noowner = '6282154156241'
 global.ownername = [['Amirr']]
-global.namabot = [['HyzenBOTz']]
-global.wm2 = [['HyzenBOTz']]
+global.namabot = [['XyzenBOTz']]
+global.wm2 = [['XyzenBOTz']]
 global.instalu = [['https://instagram.com/b4c00t.dtz']]
 global.ytlu = [['https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA']]
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -57,11 +57,11 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'Amirr'
-  var sticker_author = 'By HyzenBOTz'
+  var sticker_author = 'By XyzenBOTz'
 BOTz'
 } else {
   var sticker_name = 'Amirr'
-  var sticker_author = 'by HyzenBOTz'
+  var sticker_author = 'by XyzenBOTz'
 }
 
 const file_exif = "lib/exif.json"
@@ -75,7 +75,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by HyzenBOTz'
+global.wm = 'Created by XyzenBOTz'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
